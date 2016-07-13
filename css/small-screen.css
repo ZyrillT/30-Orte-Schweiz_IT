@@ -19,7 +19,7 @@
 
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 html {
-  font-size: 1em;
+  font-size: 1.4em;
   line-height: 100%;
   font-family: TheSerifPlain; }
 
@@ -35,7 +35,7 @@ html {
 body {
   font-size: 1em;
   margin: 0px;
-  padding: 0px; }
+  padding-left: 0px; }
 
 .wrapper {
   width: 100%;
@@ -308,14 +308,14 @@ a.top-link {
   float: none;
   text-decoration: underline;
   color: white;
-  margin-top: 5px; }
+  margin-top: 15px; }
 
 a.top-link:before {
-  content: 'nach oben'; }
+  content: 'Zur Übersicht'; }
 
 #section-navigation ul li a {
   font-family: TheSerifB6-Semi-Bold;
-  font-size: 24px;
+  font-size: 22px;
   color: #666; }
 
 #section-navigation ul li {

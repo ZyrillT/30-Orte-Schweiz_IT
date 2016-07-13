@@ -75,7 +75,7 @@ div.impressum-overlay-container
 .main-container {float:left; }
 div.main-page h1, div.main-page h2, div.arrow-down, div.text-scroll-down {position:absolute;}
 div.main-page h1, div.main-page h2 {top:5%;left:0px;}
-div.arrow-down, div.text-scroll-down {top:23%;}
+div.arrow-down, div.text-scroll-down {top:20%;}
 div.text-scroll-down {width: auto;height: auto;left:0px;padding-bottom:6%;}
 
 
