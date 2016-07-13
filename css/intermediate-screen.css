@@ -1,0 +1,169 @@
+﻿/* BG Effect intermediate and bigger only */
+body#longform-schweiz #section-01 {background-image:url('../images/longform-schweiz-01.jpg');}
+body#longform-schweiz #section-02 {background-image:url("../images/longform-schweiz-02.jpg");}
+body#longform-schweiz #section-03 {background-image:url("../images/longform-schweiz-03.jpg");}
+body#longform-schweiz #section-04 {background-image:url('../images/longform-schweiz-04.jpg');}
+body#longform-schweiz #section-05 {background-image:url('../images/longform-schweiz-05.jpg');}
+body#longform-schweiz #section-06 {background-image:url('../images/longform-schweiz-06.jpg');}
+body#longform-schweiz #section-07 {background-image:url("../images/longform-schweiz-07.jpg");}
+body#longform-schweiz #section-08 {background-image:url("../images/longform-schweiz-08.jpg");}
+body#longform-schweiz #section-09 {background-image:url('../images/longform-schweiz-09.jpg');}
+body#longform-schweiz #section-10 {background-image:url('../images/longform-schweiz-10.jpg');}
+body#longform-schweiz #section-11 {background-image:url('../images/longform-schweiz-11.jpg');}
+body#longform-schweiz #section-12 {background-image:url("../images/longform-schweiz-12.jpg");}
+body#longform-schweiz #section-13 {background-image:url("../images/longform-schweiz-13.jpg");}
+body#longform-schweiz #section-14 {background-image:url('../images/longform-schweiz-14.jpg');}
+body#longform-schweiz #section-15 {background-image:url('../images/longform-schweiz-15.jpg');}
+body#longform-schweiz #section-16 {background-image:url('../images/longform-schweiz-16.jpg');}
+body#longform-schweiz #section-17 {background-image:url("../images/longform-schweiz-17.jpg");}
+body#longform-schweiz #section-18 {background-image:url("../images/longform-schweiz-18.jpg");}
+body#longform-schweiz #section-19 {background-image:url('../images/longform-schweiz-19.jpg');}
+body#longform-schweiz #section-20 {background-image:url('../images/longform-schweiz-20.jpg');}
+body#longform-schweiz #section-21 {background-image:url('../images/longform-schweiz-21.jpg');}
+body#longform-schweiz #section-22 {background-image:url("../images/longform-schweiz-22.jpg");}
+body#longform-schweiz #section-23 {background-image:url("../images/longform-schweiz-23.jpg");}
+body#longform-schweiz #section-24 {background-image:url('../images/longform-schweiz-24.jpg');}
+body#longform-schweiz #section-25 {background-image:url('../images/longform-schweiz-25.jpg');}
+body#longform-schweiz #section-26 {background-image:url('../images/longform-schweiz-26.jpg');}
+body#longform-schweiz #section-27 {background-image:url("../images/longform-schweiz-27.jpg");}
+body#longform-schweiz #section-28 {background-image:url("../images/longform-schweiz-28.jpg");}
+body#longform-schweiz #section-29 {background-image:url('../images/longform-schweiz-29.jpg');}
+body#longform-schweiz #section-30 {background-image:url('../images/longform-schweiz-30.jpg');}
+
+
+
+/* Reset Picture settings from mobile */
+#section-02 .sticky-bg-container,
+#section-04 .sticky-bg-container,
+#section-05.main-container,
+#section-07
+{padding:0;}
+
+
+div.footer-container footer div {width:50%;float:left; }
+div.footer-container footer div.left {text-align:left; font-family: TheSansPlain; font-size: 18px; color: #666;}
+div.footer-container footer div.right {text-align:right; font-family: TheSansPlain; font-size: 18px; color: #666;}
+
+
+div.full-screen {margin-bottom:0;}
+
+.sticky-bg-container {position: absolute; left: 0px; top: 0px; overflow:hidden;float:none;background-size: cover;background-position:left;}
+.sticky-bg-container.bg-bottom {top:auto;bottom:0px;}
+.fixed {position:fixed;z-index:1;}
+.unfixed {position:absolute;top:auto;bottom:0px; }
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+
+/* Details */
+div.main-container:nth-of-type(odd), .fixed-bg {background-attachment:fixed;}
+
+/* Padding Fließtext nur mobile */
+article.scrollTextOnSticky.left,
+article.scrollTextOnSticky.right,
+article.interview,
+aside.interview.right,
+article.portrait.left,
+aside.interview.left,
+div.impressum-overlay-container
+{padding:0; }
+
+
+/* Main Page */
+.main-container {float:left; }
+div.main-page h1, div.main-page h2, div.arrow-down, div.text-scroll-down {position:absolute;}
+div.main-page h1, div.main-page h2 {top:5%;left:0px;}
+div.arrow-down, div.text-scroll-down {top:23%;}
+div.text-scroll-down {width: auto;height: auto;left:0px;padding-bottom:6%;}
+
+
+/*  Navigation */
+
+#section-navigation ul {padding-left:0; }
+
+
+
+
+/*
+nav.sticky-navigation ul li:nth-child(1) a {background-color: #945150;}
+nav.sticky-navigation ul li:nth-child(2) a {background-color: #e8e8e8; }
+nav.sticky-navigation ul li:nth-child(3) a {background-color: #cecece; }
+*/
+
+/* Sticky Text */
+.wrapper article.scrollTextOnSticky {width: 40%; padding: 20px;}
+.wrapper article.scrollTextOnSticky.right {background-color: black;float:right;color:white;background-color: rgba(0, 0, 0, 0.8);}
+.wrapper article.scrollTextOnSticky.left {background-color: rgba(255, 255, 255, 0.7);}
+
+
+/* Articles and Portrait */
+.main.interview, .main.portrait {padding-top:80px;}
+article.interview, article.portrait {width:100%;}
+article.portrait section {width:50%;float:left;}
+article.portrait section ul  {list-style: disc; padding-left: 20px; line-height: 1.7em }
+article.interview.right {float:right;}
+article.interview.left, article.portrait.left {float:left;}
+
+article.interview section, article.portrait section {padding:0 0 20px 0;}
+aside.interview, aside.portrait {width:40%;padding:20px 0;box-sizing:border-box;}
+aside.interview.left {float:left;background-color:white;}
+
+
+aside.interview.right {float:right;opacity:0;} /* Opacity is beeing animated */
+aside.interview.right section {color:#666;padding-bottom:20px;}
+aside.portrait.right {float:right;}
+
+aside.interview.left article {width:50%;float:left;box-sizing:border-box;padding:10px; }
+aside.interview.left article:nth-of-type(even) {margin-top:100px; }
+
+/*
+aside.portrait header, article.portrait header, article.scrollTextOnSticky header {padding-bottom:60px;border-bottom:3px solid black;border-bottom-style:double;margin-bottom:20px;}
+*/
+
+aside.portrait header, article.portrait header, article.scrollTextOnSticky header { border-bottom: 2px single black; margin-bottom: 20px; padding-bottom: 25px; padding-top: 20px;}
+
+
+/* Slider */
+.overlay-slider {padding-bottom:0px;}
+.homepage-first-content-slider div.slick-slide, .homepage-fullscreen-slider .slick-slide {position:relative; }
+.homepage-first-content-slider div.slick-slide div.caption {position:absolute;box-sizing:border-box;left:auto;bottom:6px;z-index:3;padding-right:20px;width:100%;height:auto;background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);background-position:6px bottom;background-repeat:no-repeat;}
+.homepage-first-content-slider div.slick-track {background-color:white; }
+.homepage-first-content-slider div.slick-slide div.caption span {display:block;float:right;width:40px;height:40px; }
+.homepage-first-content-slider div.slick-track, .homepage-fullscreen-slider .slick-track {padding:0px; }
+.homepage-first-content-slider div.slick-slide img {border:6px solid white;border-right:none;}
+.homepage-fullscreen-slider div.slick-slide div.caption {position:absolute;left:auto;bottom:0px;z-index:3;padding-left:5%;width:100%;background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);}
+.homepage-fullscreen-slider div.caption span {display:none;}
+.homepage-fullscreen-slider div.caption {text-align:left;width:auto;}
+.homepage-fullscreen-slider div.caption img {width:auto;height:auto;}
+
+.slick-next {right:5%;}
+.slick-prev {left:5%;}
+
+div.weitere-stars .slick-next {right:0%;top:45%;}
+div.weitere-stars .slick-prev {left:0%;top:45%;}
+
+
+/* Headings */
+
+div.text-on-image h1 {width: 100%;line-height: 40px;}
+div.text-on-image h2 {padding-left:0px;}
+article.interview h1 {padding:0 50px; }
+
+/*  IMGs */
+article img, section img {}
+img.image-portrait {width:50%;height:auto; }
+aside.interview.right img {min-width:300px; }
+
+
+/* Links */
+.overlay-link {position:absolute;top:30px;right:60px;color:white;z-index:3;}
+.overlay-link.overview {right:auto;left:60px;}
+
+
+
+/* Show/ Change Element starting with intermediate  */
+.gte-intermediate-screen {display: block;}
+.homepage-fullscreen-slider a.gte-intermediate-screen {display:inline;width:auto;height:auto;}
+.small-screen-only, .slick-slide img.small-screen-only  {display:none;}
