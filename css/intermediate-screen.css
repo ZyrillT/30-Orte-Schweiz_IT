@@ -99,7 +99,7 @@ nav.sticky-navigation ul li:nth-child(3) a {background-color: #cecece; }
 
 
 /* Articles and Portrait */
-.main.interview, .main.portrait {padding-top:80px;}
+.main.interview, .main.portrait {padding-top:40px;}
 article.interview, article.portrait {width:100%;}
 article.portrait section {width:50%;float:left;}
 article.portrait section ul  {list-style: disc; padding-left: 20px; line-height: 1.7em }
@@ -122,7 +122,7 @@ aside.interview.left article:nth-of-type(even) {margin-top:100px; }
 aside.portrait header, article.portrait header, article.scrollTextOnSticky header {padding-bottom:60px;border-bottom:3px solid black;border-bottom-style:double;margin-bottom:20px;}
 */
 
-aside.portrait header, article.portrait header, article.scrollTextOnSticky header { border-bottom: 2px single black; margin-bottom: 20px; padding-bottom: 25px; padding-top: 20px;}
+aside.portrait header, article.portrait header, article.scrollTextOnSticky header { border-bottom: 2px single black; margin-bottom: 20px; padding-bottom: 0px; padding-top: 20px;}
 
 
 /* Slider */

@@ -8,7 +8,7 @@
     line-height: 40px; }
 
   div.text-on-image h1 {
-    font-family: TheSerifB3-Light-Italic;
+    font-family: TheSerifB6-Semi-Bold;
     font-size: 20px;
     line-height: 28px;
     color: white;
@@ -132,7 +132,7 @@
     font-family: TheSansPlain; }
 
   aside.portrait header, article.portrait header, article.scrollTextOnSticky header, article.interview header {
-    font-family: TheSerifPlain;
+    font-family: TheSerifB6-Semi-Bold;
     font-size: 30px;
     line-height: 36px; }
 
@@ -206,8 +206,8 @@
     text-align: left; }
 
   article.interview, article.portrait, article.scrollTextOnSticky {
-    font-size: 22px;
-    line-height: 26px; }
+    font-size: 24px;
+    line-height: 24px; }
 
   article.portrait header, article.scrollTextOnSticky header, article.interview header {
     font-size: 36px;
