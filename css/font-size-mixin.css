@@ -134,7 +134,7 @@
   aside.portrait header, article.portrait header, article.scrollTextOnSticky header, article.interview header {
     font-family: TheSerifB6-Semi-Bold;
     font-size: 30px;
-    padding-left: 40px;
+    padding-left: 0px;
     line-height: 30px; }
 
   aside.portrait article.social-links header {

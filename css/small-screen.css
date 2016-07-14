@@ -311,11 +311,11 @@ a.top-link {
   margin-top: 15px; }
 
 a.top-link:before {
-  content: 'Zur Übersicht'; }
+  content: 'Scopri di più'; }
 
 #section-navigation ul li a {
-  font-family: TheSerifB6-Semi-Bold;
-  font-size: 22px;
+  font-family: TheSansPlain;
+  font-size: 18px;
   color: #666; }
 
 #section-navigation ul li {
