@@ -1,4 +1,4 @@
-﻿/* BG Effect intermediate and bigger only */
+/* BG Effect intermediate and bigger only */
 body#longform-schweiz #section-01 {background-image:url('../images/longform-schweiz-01.jpg');}
 body#longform-schweiz #section-02 {background-image:url("../images/longform-schweiz-02.jpg");}
 body#longform-schweiz #section-03 {background-image:url("../images/longform-schweiz-03.jpg");}
@@ -29,6 +29,7 @@ body#longform-schweiz #section-27 {background-image:url("../images/longform-schw
 body#longform-schweiz #section-28 {background-image:url("../images/longform-schweiz-28.jpg");}
 body#longform-schweiz #section-29 {background-image:url('../images/longform-schweiz-29.jpg');}
 body#longform-schweiz #section-30 {background-image:url('../images/longform-schweiz-30.jpg');}
+body#longform-schweiz #section-31 {background-image:url('../images/longform-schweiz-31.jpg');}
 
 
 
@@ -60,7 +61,7 @@ div.full-screen {margin-bottom:0;}
 /* Details */
 div.main-container:nth-of-type(odd), .fixed-bg {background-attachment:fixed;}
 
-/* Padding Fließtext nur mobile */
+/* Padding Flie�text nur mobile */
 article.scrollTextOnSticky.left,
 article.scrollTextOnSticky.right,
 article.interview,
